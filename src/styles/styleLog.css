@@ -1,0 +1,42 @@
+
+.login-container {
+  height: 100vh;
+  background-image: url("/src/images/BankLoginIMG.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 8%;
+}
+
+.login-box {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+  width: 450px;
+  border-radius: 8px;
+}
+
+.login-box h2 {
+  text-align: center;
+}
+
+.login-box input {
+  width: 95%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+.login-box button {
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.register-link {
+  text-align: center;
+  margin-top: 10px;
+  color: blue;
+  cursor: pointer;
+}
